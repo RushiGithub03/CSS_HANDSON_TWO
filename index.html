@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Handson CSS 2</title>
+  </head>
+  <body>
+    <section>
+      <div class="parent">
+        <div class="heading1 heading">
+          Welcome to Dhaba <br />
+          You get quality food.
+        </div>
+        <div class="heading2 heading">Home Menu review contact us</div>
+        <div class="heading3 heading">
+          <p>Email: support@store.com</p>
+          <p>if you find any Complain</p>
+          <p>Contact on - 8989988988</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="flexprop">
+        <div class="circle">
+          <p>exciting offers</p>
+          <hr class="circleline1"/>
+
+          <p>
+            **GET OUR SPECIAL THALI FOR <br />
+            ONLY RS-100 ONLY ON MONDAY**
+          </p>
+
+          <hr class="circleline2"/>
+          <p>PLEASE RATE US OUT OF 5</p>
+        </div>
+
+        <div class="form">
+          <h1>PLEASE REGISTER HERE</h1>
+          <hr />
+
+          <label for="fname">First name:</label> <br />
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="enter your first name"
+          />
+          <br />
+
+          <label for="lname">Last name:</label> <br />
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="enter your last name"
+          />
+          <br />
+
+          <label for="age">Your age:</label> <br />
+          <input
+            type="number"
+            id="age"
+            name="userage"
+            placeholder="enter your age"
+          />
+          <br />
+
+          <label for="emailid">Email:</label> <br />
+          <input
+            type="email"
+            id="emailid"
+            name="useremail"
+            placeholder="myEmail"
+          />
+          <br />
+
+          <label for="dob">Date of birth:</label> <br />
+          <input
+            type="date"
+            id="dob"
+            name="userdob"
+            placeholder="dd/mm/yyyy"
+            class="datebirth"
+          />
+          <br />
+
+          <label for="person">Are you more than one person ?</label> <br />
+          <input
+            type="checkbox"
+            id="person"
+            name="userperson"
+            value="multiple-persons"
+          />
+          <br />
+
+          <label for="disease">Do you have cough or cold?</label> <br />
+          <input
+            type="checkbox"
+            id="disease"
+            name="userdisease"
+            value="ill"
+            placeholder="dd/mm/yyyy"
+          />
+          <br />
+
+          <label for="click">click here</label> <br />
+          <input
+            type="submit"
+            id="click"
+            value="Submit here"
+            placeholder="Submit here"
+          />
+          <br />
+
+          <label for="resetvalues">Reset</label> <br />
+          <input type="reset" id="resetvalues" value="Reset" /> <br />
+        </div>
+      </div>
+    </section>
+
+    <section class="menucarsection">
+      <div>
+        <h1 class="menu">MENU</h1>
+      </div>
+
+      <hr class="hrmenu" />
+
+      <div class="menucard">
+      
+        <div class="childmenu">
+        <h2>Staters</h2>
+        <hr class="menuline">
+          <ul>
+            <li>Paneer Tikka</li>
+            <li>Tomato Soup</li>
+            <li>Afghani Chaap</li>
+            <li>Veg Raita</li>
+            <li>Gol gappa</li>
+            <li>Tikki</li>
+            <li>Fried Rice</li>
+          </ul>
+      </div>
+
+      <div class="childmenu">
+        <h2>South Indian</h2>
+        <hr class="menuline">
+          <ul>
+            <li>Masala Dosa</li>
+            <li>Idli Sambaer</li>
+            <li>Mix Veg. Uttapam</li>
+            <li>Onion Dosa</li>
+            <li>Vada Sambaer
+            </li>
+            <li>Paper Plain Dosa</li>
+            <li>Tomato Uttapam</li>
+          </ul>
+      </div>
+
+      <div class="childmenu">
+        <h2>Indian Kitchen</h2>
+        <hr class="menuline">
+          <ul>
+            <li>Shahi Paneer</li>
+            <li>kadhai Paneer</li>
+            <li>Aloo Ghobi</li>
+            <li>Dal Makhni</li>
+            <li>Poori sabji</li>
+            <li>Malai Kofta</li>
+            <li>Stuff Capsicum</li>
+          </ul>
+      </div>
+      
+
+      <!-- <div class="menucard"> -->
+
+      <div class="childmenu">
+        <h2>Rice & Salad</h2>
+        <hr class="menuline">
+          <ul>
+            <li>Plain Rice</li>
+            <li>Jeera Rice</li>
+            <li>Fried Rice</li>
+            <li>Veg. Pulao</li>
+            <li>Veg Biryani</li>
+            <li>Cheese Fried Rice</li>
+            <li>Masala Salad</li>
+          </ul>
+      </div>
+   
+
+      <div class="childmenu">
+        <h2>Tandoori Bread</h2>
+        <hr class="menuline">
+          <ul>
+            <li>Butter Roti </li>
+            <li>Missi Roti</li>
+            <li>Onion Parantha</li>
+            <li>Lacha Parantha</li>
+            <li>Butter Naan</li>
+            <li>Paneer Parantha</li>
+            <li>Stuff Parantha</li>
+          </ul>
+      </div>
+      
+      <div class="childmenu childmenulast">
+        <h2>Beverages and Other</h2>
+        <hr class="menuline">
+          <ul>
+            <li>Cold Coffer</li>
+            <li>Cold Drinks</li>
+            <li>Badam Milk</li>
+            <li>Mineral Water</li>
+            <li>Ice Cream</li>
+            <li>Cake</li>
+            <li>Gajar Halwa</li>
+          </ul>
+      </div>
+   
+
+    </div>
+
+    </section>
+  </body>
+</html>
